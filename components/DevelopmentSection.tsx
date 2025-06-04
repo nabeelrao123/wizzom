@@ -45,13 +45,13 @@ const DevelopmentSection = () => {
 
     return (
         <div className="w-full mt-12">
-            <div className="max-w-[90%] mx-auto">
+            <div className="max-w-[1400px] w-[90%] mx-auto">
                 <Image
                 alt=''
                     src={grop5026}
                     // alt={service.title}
                     // fill
-                    className="object-contain mb-12 "
+                    className="object-contain mb-12 w-full  "
                 />
                 <h2 className={`font-rethink font-bold text-4xl md:text-5xl leading-[100%] mb-4 text-center ${color == '#ffffff' ? 'text-[#000000]' : 'text-[#ffffff]'}`}>
                     Development

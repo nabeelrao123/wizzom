@@ -15,7 +15,7 @@ import imgrigth from '../assets/quote-right_svgrepo.com (1).png'
 export default function OurWorkSpeakSection() {
     return (
         <div className="w-full mt-[30px]">
-            <div className="max-w-[90%] mx-auto">
+            <div className="max-w-[1400px] w-[90%]  mx-auto">
                 <Carousel opts={{ align: "start" }}>
                     <div className="w-full">
                         <p className="text-3xl font-semibold text-center mb-8 text-white">

@@ -112,7 +112,7 @@ const DesignServices = () => {
     <div className="w-full md:mt-10 py-10  "
       style={{ background: 'linear-gradient(180deg, rgba(123,185,246,0.1) 0%, rgba(29,30,41,0.1) 100%' }}
     >
-      <div className="max-w-[90%] mx-auto">
+      <div className="max-w-[1400px] w-[90%] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 mb-12">
           <div className="mb-6 md:mb-0">
             <h2 className={`${rethinkSans.className}  ${color == '#ffffff' ? 'text-[#000000]' : 'text-[#ffffff]'} font-semibold text-4xl`}>

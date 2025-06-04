@@ -12,7 +12,7 @@ const ContactForm = () => {
   let  bgColor =   color == '#ffffff' ? '#E5E5E5' : 'var(--Colors-Chilled-Surface-light, #272937)' ;
   return (
     <div className="w-full py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-[90%] mx-auto p-6 sm:p-10  rounded-2xl"
+      <div className="max-w-[1400px] w-[90%] mx-auto p-6 sm:p-10  rounded-2xl"
          style={{ backgroundColor: bgColor }}>
         <p className={`text-sm ${color == '#ffffff' ? 'text-[#404040]' : 'text-[#D4D4D4]'} leading-relaxed font-inter mb-8 sm:mb-10  font-inter  `}>
           Have a question or need assistance? We're here to help! Reach out today, and let's create something

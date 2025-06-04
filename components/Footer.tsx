@@ -1,3 +1,5 @@
+
+
 import Link from 'next/link';
 import Image from 'next/image';
 import vector10 from '../assets/Vector (10).png'
@@ -7,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
     return (
         <div className="w-full py-8 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 bg-[#050417] text-white rounded-xl">
+            <div className="max-w-[1400px] w-[90%] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 bg-black text-white rounded-xl">
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 mb-8 sm:mb-12">
                     <div className="space-y-2 sm:space-y-4 col-span-1">
                         <p className="font-manrope text-lg sm:text-[22px] leading-[100%] tracking-[0px]">

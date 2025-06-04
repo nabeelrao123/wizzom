@@ -9,7 +9,7 @@ import group7 from '../assets/Group (7).png'
 import group22 from '../assets/Group 1321315122.png'
 import { useSelector } from 'react-redux';
 import { AppDispatch, RootState } from '@/app/redux/store';
-
+import vector17 from '../assets/Vector (17).png'
 
 const WhyChooseUs = () => {
     const color = useSelector((state: RootState) => state.color.color);
@@ -59,7 +59,7 @@ const WhyChooseUs = () => {
     return (
 
         <div className="w-full py-16 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-[1400px] w-[90%] mx-auto">
                 <div className="max-w-[50%] mx-auto">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl text-center text-white mb-8 md:mb-10 font-rethink-sans leading-tight">
                         Why Choose Us For <span className="block sm:inline">Development & Design?</span>
@@ -138,10 +138,14 @@ const WhyChooseUs = () => {
                     <div className="hidden lg:flex items-center justify-center relative my-4 lg:my-0">
                         <div className="w-64 h-64 md:w-[350px] md:h-[350px] border border-[#272937] 
         rounded-full flex justify-center items-center animate-pulse-slow">
-                            <div className="w-3/4 h-3/4 border border-[#272937] rounded-full"></div>
+                            <div className="w-3/4 h-3/4 border border-[#272937] flex justify-center items-center text-white rounded-full text-center ">
+                                {/* <Image src={vector17} alt='' />
+                                <Image src={vector17} alt='' /> */}
+                            </div>
                         </div>
                         <div className="absolute inset-0 flex items-center justify-center">
-                            <div className="w-1/2 h-1/2 border-[#272937] rounded-full blur-xl"></div>
+                            <div className="w-1/2 h-1/2 border-[#272937] rounded-full blur-xl ">
+                            </div>
                         </div>
                     </div>
 

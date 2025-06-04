@@ -18,7 +18,7 @@ const HeroSection = () => {
 
   return (
     <div className="w-full mt-[30px]">
-      <div className="max-w-[90%] mx-auto">
+      <div className="max-w-[1400px] w-[90%] mx-auto">
         {/* Header Section */}
         <div className="block md:flex gap-x-10">
           <div className="w-full md:w-[45%]">

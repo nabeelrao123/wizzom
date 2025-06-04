@@ -34,12 +34,9 @@ const HowDoWeWorkSection = () => {
                 'Once we deliver, we help you launch seamlessly and provide ongoing support to ensure growth and long-term success.',
         },
     ];
-
-
-
     return (
         <div className="w-full mt-[50px]">
-            <div className="max-w-[90%] mx-auto px-8 py-8 rounded-3xl "
+            <div className="max-w-[1400px] w-[90%] mx-auto px-8 py-8 rounded-3xl "
                 style={{ background: 'linear-gradient(180deg, rgba(123,185,246,0.1) 0%, rgba(29,30,41,0.1) 100%' }}
             >
                 {/* <h2 className="font-bold text-[50px] leading-[100%] tracking-[0%] font-[Rethink_Sans] text-center text-white">

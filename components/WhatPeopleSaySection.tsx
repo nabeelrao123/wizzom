@@ -53,7 +53,7 @@ export function WhatPeopleSaySection() {
         <div className="w-full mt-[30px]">
             <Carousel opts={{ align: "start" }}>
 
-                <div className="max-w-[90%] mx-auto">
+                <div className="max-w-[1400px] w-[90%] mx-auto">
                     <div className="">
                         <div className="grid  grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 md:gap-y-0 mb-10 " >
                             <div>
