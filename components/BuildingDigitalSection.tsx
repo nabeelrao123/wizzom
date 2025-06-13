@@ -20,7 +20,7 @@ const BuildingDigitalSection = () => {
     <div className="w-full mt-[30px]">
       <div className="max-w-[1400px] w-[90%] mx-auto">
         <div className="block md:flex gap-x-7 ">
-          <div className='w-[80%]' >
+          <div className='w-full md:w-[80%]' >
             <p className={`font-[Rethink_Sans]
             ${color == '#ffffff' ? 'text-[#000000]' : 'text-[#ffffff]'} font-semibold text-[40px] 
             md:text-[110px] 
@@ -33,7 +33,7 @@ const BuildingDigitalSection = () => {
             </p>
           </div>
 
-          <div className='w-[20%] flex  justify-end ' >
+          <div className=' w-full  md:w-[20%] justify-center flex  md:justify-end ' >
             <div className="h-[200px] w-[200px] relative  overflow-hidden">
               <Image
                 src={img5024}

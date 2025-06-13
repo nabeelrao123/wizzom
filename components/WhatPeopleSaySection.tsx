@@ -1,4 +1,3 @@
-'use client'
 import * as React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -52,8 +51,6 @@ const CaroselsCard = () => {
 };
 
 export function WhatPeopleSaySection() {
- const color = useSelector((state: RootState) => state.color.color);
-
     return (
         <div className="w-full mt-[30px]">
             <Carousel opts={{ align: "start" }}>
@@ -62,12 +59,12 @@ export function WhatPeopleSaySection() {
                     <div className="">
                         <div className="grid  grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 md:gap-y-0 mb-10 " >
                             <div>
-                                <p className={`text-4xl font-semibold ${color=='#ffffff' ? 'text-[#041C33]' : 'text-white'}`}>
+                                <p className='text-4xl font-semibold text-[#041C33] '>
                                     Our Work Speaks for Itself
                                 </p>
                             </div>
                             <div>
-                                <p className={`text-sm   ${color =='#ffffff' ? 'text-[#404040]' : 'text-[#D4D4D4]'}    leading-[25px]`}>
+                                <p className='text-sm text-[#D4D4D4] leading-[25px]'>
                                     Lorem ipsum dolor sit amet consectetur. Nibh in ut nisl eu. Nam sit sollicitudin non nunc arcu nibh. Aliquet dui pellentesque porttitor lectus urna. Sit euismod nulla...
                                 </p>
                                 <div className="flex gap-2 justify-end items-end">

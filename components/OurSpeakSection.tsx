@@ -55,17 +55,17 @@ export default function OurSpeakSection() {
 
                 <div className="max-w-[1400px] w-[90%] mx-auto">
                     <div className="">
-                        <div className="grid  grid-cols-1 md:grid-cols-2 gap-x-3 gap-y-8 md:gap-y-0 mb-10 " >
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-3 gap-y-8 md:gap-y-0 mb-10 " >
                             <div>
-                                <p className="text-4xl font-semibold  text-white">
+                                <p className="text-3xl md:text-4xl font-semibold  text-white">
                                     Our Work Speaks for Itself
                                 </p>
 
-                                <div className="mt-4 flex gap-x-3 " >
-                                    <button className="bg-[#ff3310] px-5 rounded-full py-2 text-center text-white " >All</button>
+                                <div className="flex-col mt-4 gap-y-8  md:flex md:gap-x-3" >
+                                    <button className="bg-[#ff3310] px-5 rounded-full py-2 text-center text-white" >All</button>
                                     {['Marketing', 'Hosting & Cloud', 'Development & Design'].map((cval) => {
                                         return (<>
-                                            <button className="bg-[#272937]  px-5 rounded-full py-2 text-center text-white " >{cval}</button>
+                                            <button className="bg-[#272937] px-5 rounded-full py-2 text-center text-white" >{cval}</button>
                                         </>)
                                     })}
                                 </div>
@@ -88,5 +88,10 @@ export default function OurSpeakSection() {
             </Carousel>
 
         </div>
+
+
+
+
+        
     );
 }

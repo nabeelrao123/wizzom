@@ -34,7 +34,7 @@ const LatestBlog = () => {
     return (
         <div className="w-full mt-24">
             <div className="max-w-[1400px] w-[90%] mx-auto">
-                <div className='max-w-[1400px] w-[50%] mx-auto ' >
+                <div className='w-full md:w-[50%] mx-auto ' >
                     <h2 className={`font-rethink text-center font-semibold text-4xl md:text-4xl leading-[100%] mb-4 ${color == '#ffffff' ? 'text-[#000000]' : 'text-[#ffffff]'}`}>
                         Read Our Latest News & Blog Get Every Updates
                     </h2>

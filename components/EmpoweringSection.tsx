@@ -23,8 +23,8 @@ const EmpoweringSection = () => {
             <div className="max-w-[1400px]  rounded-3xl px-10 py-10 w-[90%] mx-auto bg-[#272937]">
                 {/* Header Section */}
                 <div className="block md:flex">
-                    <div className="w-full md:w-[55%]">
-                        <h2 className={`font-[Rethink_Sans] ${color == '#ffffff' ? 'text-[#ffffff]' : 'text-[#ffffff]'} font-semibold text-[50px] md:text-5xl
+                    <div className="w-[100%] md:w-[55%]  ">
+                        <h2 className={`font-[Rethink_Sans] ${color == '#ffffff' ? 'text-[#ffffff]' : 'text-[#ffffff]'} font-semibold text-4xl md:text-5xl
             leading-[100%] tracking-[0]`}>
                             Empowering Your Vision with Digital Excellence
                         </h2>
