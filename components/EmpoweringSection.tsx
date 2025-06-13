@@ -2,13 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-// import image2 from '../../assets/svg/image (2).png'
-// import vector from '../../assets/svg/Vector (10).png'
-import image2 from '../assets/image (2).png'
-import vector from '../assets/Vector (10).png'
-// import { RootState } from '@reduxjs/toolkit/query';
 import { useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '@/app/redux/store';
+import {  RootState } from '@/app/redux/store';
 import modernequipped from '../assets/modern-equipped-computer-lab.png'
 import img1491 from '../assets/Frame 427321491.png'
 

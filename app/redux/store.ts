@@ -1,5 +1,5 @@
 // app/store.ts
-import { configureStore, UnknownAction } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 // import { apiSlice } from './apiSlice';
 import colorReducer from './colorSlice'; 
 import {

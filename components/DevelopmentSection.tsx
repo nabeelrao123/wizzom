@@ -3,7 +3,7 @@ import Image from 'next/image';
 import vector10 from '../assets/Vector (10).png'
 import seachrafick from '../assets/Web search-rafiki (1) 1 (1).png'
 import { useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '@/app/redux/store';
+import { RootState } from '@/app/redux/store';
 import grop5026 from '../assets/Frame 1413375026 (1).png'
 const services = [
     {

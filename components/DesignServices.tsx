@@ -4,7 +4,7 @@ import { Rethink_Sans } from 'next/font/google';
 import vector10 from '../assets/Vector (10).png'
 import img3 from '../assets/image (3).png'
 import { useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '@/app/redux/store';
+import {  RootState } from '@/app/redux/store';
 import img5 from '../assets/image (5).png'
 import img6 from '../assets/image (6).png'
 import img7 from '../assets/image (7).png'

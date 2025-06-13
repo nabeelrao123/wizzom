@@ -5,7 +5,7 @@ import vector11 from '../assets/Vector (11).png'
 import img4 from '../assets/image (4).png'
 import vector12 from '../assets/Vector (12).png'
 import { useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '@/app/redux/store';
+import {  RootState } from '@/app/redux/store';
 
 const ContactForm = () => {
   const color = useSelector((state: RootState) => state.color.color);
