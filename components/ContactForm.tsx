@@ -9,7 +9,7 @@ import {  RootState } from '@/app/redux/store';
 
 const ContactForm = () => {
   const color = useSelector((state: RootState) => state.color.color);
-  let  bgColor =   color == '#ffffff' ? '#E5E5E5' : 'var(--Colors-Chilled-Surface-light, #272937)' ;
+  const  bgColor =   color == '#ffffff' ? '#E5E5E5' : 'var(--Colors-Chilled-Surface-light, #272937)' ;
   return (
     <div className="w-full py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1400px] w-[90%] mx-auto p-6 sm:p-10  rounded-2xl"
