@@ -1,12 +1,8 @@
 'use client';
 import Image from 'next/image';
-import vector10 from '../assets/Vector (10).png'
-import seachrafick from '../assets/Web search-rafiki (1) 1 (1).png'
 import { useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '@/app/redux/store';
+import { RootState } from '@/app/redux/store';
 import img8 from '../assets/image (8).png'
-import shotman from '../assets/medium-shot-man-designing-websites.png'
-import grop5026 from '../assets/Frame 1413375026 (1).png'
 import arrow from '../assets/arrow.png'
 const services = [
     {

@@ -6,7 +6,7 @@ import frame1 from '../assets/Frame (1).png'
 import object from '../assets/OBJECTS.png'
 import group5029 from '../assets/Group 1321315029.png'
 import { useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '@/app/redux/store';
+import {  RootState } from '@/app/redux/store';
 
 const HowDoWeWorkSection = () => {
     const color = useSelector((state: RootState) => state.color.color);

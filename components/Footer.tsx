@@ -1,6 +1,5 @@
 
 
-import Link from 'next/link';
 import Image from 'next/image';
 import vector10 from '../assets/Vector (10).png'
 import { faFacebookF, faInstagram, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';

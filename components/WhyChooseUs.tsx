@@ -8,53 +8,52 @@ import group121 from '../assets/Group 1321315121 (1).png'
 import group7 from '../assets/Group (7).png'
 import group22 from '../assets/Group 1321315122.png'
 import { useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '@/app/redux/store';
-import vector17 from '../assets/Vector (17).png'
+import { RootState } from '@/app/redux/store';
 
 const WhyChooseUs = () => {
     const color = useSelector((state: RootState) => state.color.color);
 
-    const featuresLeft = [
-        {
-            title: 'Transparent Approach',
-            description: 'We prioritize open communication, keeping you involved and informed every step of the way.',
-            icon: '/assests/Group 1321315115.png',
-            translate: 'lg:-translate-x-[-35px]'
-        },
-        {
-            title: 'Quality Assurance',
-            description: 'Rigorous testing protocols ensure flawless performance across all devices and platforms.',
-            icon: '/assests/Group 1321315115.png',
-            translate: 'lg:-translate-x-[5px] lg:translate-y-[-80px]'
-        },
-        {
-            title: 'Innovative Solutions',
-            description: 'Cutting-edge technologies tailored to solve your unique business challenges.',
-            icon: '/assests/Group 1321315115.png',
-            translate: 'lg:-translate-x-[-22px]'
-        }
-    ];
+    // const featuresLeft = [
+    //     {
+    //         title: 'Transparent Approach',
+    //         description: 'We prioritize open communication, keeping you involved and informed every step of the way.',
+    //         icon: '/assests/Group 1321315115.png',
+    //         translate: 'lg:-translate-x-[-35px]'
+    //     },
+    //     {
+    //         title: 'Quality Assurance',
+    //         description: 'Rigorous testing protocols ensure flawless performance across all devices and platforms.',
+    //         icon: '/assests/Group 1321315115.png',
+    //         translate: 'lg:-translate-x-[5px] lg:translate-y-[-80px]'
+    //     },
+    //     {
+    //         title: 'Innovative Solutions',
+    //         description: 'Cutting-edge technologies tailored to solve your unique business challenges.',
+    //         icon: '/assests/Group 1321315115.png',
+    //         translate: 'lg:-translate-x-[-22px]'
+    //     }
+    // ];
 
-    const featuresRight = [
-        {
-            title: 'Timely Delivery',
-            description: 'We meet deadlines without compromising quality, every single time.',
-            icon: '/assests/Group 1321315115.png',
-            translate: 'lg:-translate-x-[33px]'
-        },
-        {
-            title: 'User-Centric Design',
-            description: 'Interfaces designed for optimal user experience and conversion rates.',
-            icon: '/assests/Group 1321315115.png',
-            translate: 'lg:-translate-x-[5px] lg:translate-y-[-80px]'
-        },
-        {
-            title: 'Ongoing Support',
-            description: 'Continuous maintenance and updates to keep your solution performing at its best.',
-            icon: '/assests/Group 1321315115.png',
-            translate: 'lg:-translate-x-[22px]'
-        }
-    ];
+    // const featuresRight = [
+    //     {
+    //         title: 'Timely Delivery',
+    //         description: 'We meet deadlines without compromising quality, every single time.',
+    //         icon: '/assests/Group 1321315115.png',
+    //         translate: 'lg:-translate-x-[33px]'
+    //     },
+    //     {
+    //         title: 'User-Centric Design',
+    //         description: 'Interfaces designed for optimal user experience and conversion rates.',
+    //         icon: '/assests/Group 1321315115.png',
+    //         translate: 'lg:-translate-x-[5px] lg:translate-y-[-80px]'
+    //     },
+    //     {
+    //         title: 'Ongoing Support',
+    //         description: 'Continuous maintenance and updates to keep your solution performing at its best.',
+    //         icon: '/assests/Group 1321315115.png',
+    //         translate: 'lg:-translate-x-[22px]'
+    //     }
+    // ];
 
     return (
 
