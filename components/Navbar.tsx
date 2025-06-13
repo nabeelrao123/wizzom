@@ -141,7 +141,11 @@ import group4373 from '../assets/Group 1321314373.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const menuItems = ['Home', 'Tribies', 'About Us', 'Contact Us']
+  const menuItems = [ {title:'Home',link:'/home'},
+    {title:'Tribies',link:'/tribies'},
+    {title:'About Us',link:'/aboutus'},
+    {title:'Contact Us',link:'/contactus'},
+    ]
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -195,8 +199,8 @@ const Navbar = () => {
           {/* Desktop menu */}
           <div className="hidden sm:flex sm:items-center sm:justify-center sm:flex-1">
             <div className="flex space-x-4">
-              {menuItems.map((menus: string,index:number) => (<>
-                <Link key={index} href="#" className={`${color == '#ffffff' ? 'text-[#262626]' : 'text-[#ffffff]'} px-3 py-2 rounded-md text-sm `}>{menus}</Link>
+              {menuItems.map((menus: {title:string,link:string},index:number) => (<>
+                <Link key={index} href={menus.link} className={`${color == '#ffffff' ? 'text-[#262626]' : 'text-[#ffffff]'} px-3 py-2 rounded-md text-sm `}>{menus.title}</Link>
               </>))}
             </div>
           </div>
@@ -225,8 +229,8 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div className={`sm:hidden ${isOpen ? 'block' : 'hidden'}`} id="mobile-menu">
         <div className="pt-2 pb-3 space-y-1">
-          {menuItems.map((menus: string,index:number) => (<>
-            <Link key={index} href="#" className={`${color == '#ffffff' ? 'text-[#262626]' : 'text-[#ffffff]'} px-3 py-2 rounded-md text-sm `}>{menus}</Link>
+          {menuItems.map((menus:{title:string,link:string},index:number) => (<>
+            <Link key={index} href={menus.link} className={`${color == '#ffffff' ? 'text-[#262626]' : 'text-[#ffffff]'} px-3 py-2 rounded-md text-sm `}>{menus.title}</Link>
           </>))}
           <div className="mt-4 pl-3">
             <button className="w-[25px] h-[25px] bg-[#218AF0] rounded-full flex justify-center items-center"
